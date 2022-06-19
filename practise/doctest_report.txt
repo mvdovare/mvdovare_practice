@@ -1,0 +1,27 @@
+Trying:
+    bubble_sort([])
+Expecting:
+    []
+ok
+Trying:
+    bubble_sort([2,7,3,5])
+Expecting:
+    [2, 3, 5, 7]
+ok
+Trying:
+    bubble_sort([3.5,6,2.2,7.8])
+Expecting:
+    [2.2, 3.5, 6, 7.8]
+ok
+Trying:
+    bubble_sort(['hello world'])
+Expecting:
+    ' dehllloorw'
+ok
+1 items had no tests:
+    __main__
+1 items passed all tests:
+   4 tests in __main__.bubble_sort
+4 tests in 2 items.
+4 passed and 0 failed.
+Test passed.
