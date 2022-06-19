@@ -27,14 +27,12 @@ def tri_tri_2d(t_1, t_2, eps=0.0, allow_reversed=False, on_boundary=True):
 
     if on_boundary:
         # Points on the boundary are considered as colliding
-        def chk_edge(_x):
+        def chk_edge(_x):  # possibly I should to disable pylint check for var "x" instead of adding "_"
             return np.linalg.det(_x) < eps
-        # chk_edge = lambda x: np.linalg.det(x) < eps
     else:
         # Points on the boundary are not considered as colliding
-        def chk_edge(_x):
+        def chk_edge(_x):  # possibly I should to disable pylint check for var "x" instead of adding "_"
             return np.linalg.det(_x) <= eps
-        # chk_edge = lambda x: np.linalg.det(x) <= eps
 
     # For edge E of trangle 1,
     for i in range(3):
