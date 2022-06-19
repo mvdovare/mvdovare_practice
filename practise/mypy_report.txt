@@ -1,0 +1,6 @@
+PS D:\pythonProject> mypy D:\pythonProject\practise\probability.py --disallow-untyped-calls --disallow-untyped-defs --disallow-incomplete-defs
+practise\probability.py:5: error: Function is missing a type annotation
+practise\probability.py:12: error: Function is missing a type annotation
+practise\probability.py:22: error: Call to untyped function "beating_probability" in typed context
+practise\probability.py:23: error: Call to untyped function "beating_probability" in typed context
+Found 4 errors in 1 file (checked 1 source file)
